@@ -10,7 +10,10 @@ function Home() {
         <h1>Ecmascript 2020 or ES11 - Topics</h1>
         <ul className="fl">
             <li>
-            <Link to="/optional-chaining">Optional Chaining</Link>
+              <Link to="/optional-chaining">Optional Chaining</Link>
+            </li>
+            <li>
+              <Link to="/var-let-const">Var, Let and Const</Link>
             </li>
         </ul>
     </div>

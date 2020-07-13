@@ -7,6 +7,7 @@ import {
 
 import Home from './components/home/home';
 import OptionalChaining from './components/optional-chaining/optional-chaining';
+import VarLetConst from './components/var-let-const/var-let-const';
 
 import './App.css';
 
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/optional-chaining">
               <OptionalChaining />
+            </Route>
+            <Route path="/var-let-const">
+              <VarLetConst />
             </Route>
           </Switch>
       </div>
