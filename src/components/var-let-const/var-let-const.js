@@ -1,8 +1,10 @@
 import React from 'react';
 
+var abc = 20; // global scope
 function varExample() {
-    // #Function hoisting : b will be declared here
-    var a = 1;
+    // # Varibale hoisting : b will be declared here
+    var b;
+    var a = 1; //local
     if (a >= 0) {
         var b = 2; // Althogh we define b here but beacause of function hoisting, it define at the top of function
         console.log(a); // prints 1
@@ -15,7 +17,7 @@ function varExample() {
 function letExample() {
     let a = 1;
     if (a >= 0) {
-        let b = 2;
+        const b = 2;
         console.log(a); // prints 1
         console.log(b); // prints 2
         a = 3;
